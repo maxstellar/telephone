@@ -62,12 +62,13 @@ html, body {
 .tagline {
     font-size: 1.43vw;
     font-weight: 600;
+    padding-bottom: 1vw;
 }
 
 .button {
     display: inline-block;
     padding: 0.5vw;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     border-radius: 12px;
     transition: filter 0.1s ease-in-out;
 }
