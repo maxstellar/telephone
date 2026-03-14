@@ -1,17 +1,15 @@
-html {
-    background-color: #ffe0b6;
+html, body {
+    background-color: white;
     font-size: 15px;
     font-family: "EB Garamond", serif;
+    margin: 0;
+    padding: 0;
 }
 
 #phonebooth {
-    margin-top: 5rem;
-    width: 70vw;
-    clip-path: inset(0% 0% 70% 0%);
-    position: absolute;
+    padding-top: 15rem;
+    width: 75vw;
     display: block;
-    left: 0;
-    right: 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,4 +21,10 @@ html {
 
 .hc-logo:hover {
     transform: rotate(10deg) translateY(0.5rem);
+}
+
+.banner {
+    background-color: #e7bda2;
+    width: 100vw;
+    height: auto;
 }
