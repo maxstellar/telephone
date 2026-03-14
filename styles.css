@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
 @font-face {
   font-family: "K6 Telephone";
   src: url("K6-Telephone.woff2") format("woff2");
@@ -6,9 +7,9 @@
 }
 
 html, body {
-    background-color: white;
-    font-size: 15px;
-    font-family: "Gelasio", serif;
+    background-color: #caa478;
+    font-size: 0.75vw;
+    font-family: "Courier Prime", monospace;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -60,9 +61,11 @@ html, body {
 }
 
 .tagline {
-    font-size: 1.43vw;
+    font-family: "Special Elite", monospace;
+    font-size: 1.4vw;
     font-weight: 600;
     padding-bottom: 1vw;
+    color: #2a2a2a;
 }
 
 .button {
@@ -85,6 +88,8 @@ html, body {
 
 #about {
     text-align: center;
+    height: auto;
+    position: relative;
 }
 
 footer {
