@@ -1,17 +1,18 @@
 html, body {
     background-color: white;
     font-size: 15px;
-    font-family: "EB Garamond", serif;
+    font-family: "Gelasio", serif;
     margin: 0;
     padding: 0;
 }
 
 #phonebooth {
-    padding-top: 15rem;
+    padding-top: 11vw;
     width: 75vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    user-select: none;
 }
 
 .hc-logo {
@@ -27,4 +28,40 @@ html, body {
     background-color: #e7bda2;
     width: 100vw;
     height: auto;
+    position: relative;
+}
+
+.banner-panel {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5vw;
+    background-color: #e7bda2;
+    border: 0.3vw dashed black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 1.43vw;
+    font-weight: 600;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5vw;
+    font-size: 1.2vw;
+    border-radius: 12px;
+    transition: filter 0.1s ease-in-out;
+}
+
+.button:hover {
+    filter: brightness(85%);
+}
+
+.red {
+    background-color: #d00000;
+    text-decoration: none;
+    color: white;
 }
