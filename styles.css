@@ -110,3 +110,32 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.steps {
+    display: flex;
+    width: 90vw;
+    margin: 2vw auto 4vw auto;
+    gap: 1vw;
+}
+.step {
+    background-color: #e7bda2;
+    border: 0.3vw dashed black;
+    border-radius: 12px;
+    flex: 1;
+    padding: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5vw;
+}
+.step span {
+    font-family: "K6 Telephone", serif;
+    font-size: 2.5vw;
+    color: #d00000;
+}
+.step p {
+    font-family: "Special Elite", monospace;
+    font-size: 1.1vw;
+    margin: 0;
+}
