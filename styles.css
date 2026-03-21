@@ -117,25 +117,46 @@ footer a:hover {
     margin: 2vw auto 4vw auto;
     gap: 1vw;
 }
+
 .step {
+    height: 100%;
     background-color: #e7bda2;
     border: 0.3vw dashed black;
     border-radius: 12px;
     flex: 1;
     padding: 1.5vw;
+    padding-bottom: 0.1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 0.5vw;
+    transition: transform 0.15s ease, filter 0.15s ease;
 }
+
+
+.step:hover {
+    transform: translateY(-0.4vw);
+    filter: brightness(97%);
+}
+
+
 .step span {
     font-family: "K6 Telephone", serif;
     font-size: 2.5vw;
     color: #d00000;
 }
+
+
 .step p {
     font-family: "Special Elite", monospace;
     font-size: 1.1vw;
     margin: 0;
+}
+
+.arrow {
+    padding-top: 1.5vw;
+    align-self: center;
+    font-size: 2.5vw;
+    color: #d00000;
 }
